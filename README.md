@@ -1,0 +1,1 @@
+# Palvelinten-hallinta-h7-miniprojekti
