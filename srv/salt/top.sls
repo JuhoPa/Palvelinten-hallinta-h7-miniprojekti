@@ -1,7 +1,7 @@
+base:
+  '*':
 {% if grains['os'] == 'Windows' %}
-base:
-  - winsshd
-{% else %}
-base:
-  - sshd
+    - winsshd
+{% elif grains['kernel'] == 'Linux' %}
+    - sshd
 {% endif  %}

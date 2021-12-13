@@ -1,6 +1,9 @@
 chocolatey:
   pkg.installed
 
+choco:
+  chocolatey.installed:
+    - name: openssh
 
 C:\ProgramData\ssh\sshd_config:
   file.managed:
