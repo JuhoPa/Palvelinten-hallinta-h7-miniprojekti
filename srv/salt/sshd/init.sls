@@ -15,4 +15,4 @@ sshdkey:
   ssh_auth.present:
     - user: root
     - source: salt://sshd/id_rsa.pub
-    - config: /.ssh/authorized_keys
+    - config: /root/.ssh/authorized_keys
