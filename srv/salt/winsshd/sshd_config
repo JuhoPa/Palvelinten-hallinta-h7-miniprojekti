@@ -1,0 +1,17 @@
+#Warning this file will be updated automatically. Changes will be overwritten
+
+
+Port 2222
+Port 22
+PermitRootLogin yes
+ChallengeResponseAuthentication no
+X11Forwarding yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem	sftp	sftp-server.exe
+
+PubkeyAuthentication yes
+PasswordAuthentication no
+
+#Match Group administrators
+#AuthorizedKeysFile C:/ProgramData/ssh/administrators_authorized_keys
