@@ -9,7 +9,7 @@ statefile for Windows(tested on Windows 10 Vm)
 ![screenshot](screenshots/winsshd.png)
 
 top.sls file to run one of the states based on os
-![screenshot](screenshot/top.png)
+![screenshot](screenshots/top.png)
 
 state.apply results on debian and windows
 ![screenshot](screenshots/t001.png)
