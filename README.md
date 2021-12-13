@@ -7,7 +7,7 @@ Tested on Debian 11 Bullseye and Windows 10 VMs
 You need a Linux salt-master and salt-minion/s
 Clone the git repository to your master and apply top.sls to your minions.
 
-[screenshot](Palvelinten-hallinta-h7-miniprojekti/screenshots/ConnectingtoWindows.png)
+![screenshot](screenshots/ConnectingtoWindows.png)
 
 ## This miniproject is part of Tero Karvinens course Palvelinten hallinta
 course: [Palvelinten hallinta -ICT4TN022-3014 - 
