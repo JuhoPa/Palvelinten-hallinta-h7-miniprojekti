@@ -1,7 +1,7 @@
 # Palvelinten-hallinta-h7-miniprojekti
 
 ## Purpose and how to use
-The purpose of this miniproject is to install, configure and setup pubkeyauthentication from Salt-master to salt-minions with OpenSSH
+The purpose of this miniproject is to install, configure and setup pubkeyauthentication from Salt-master to salt-minions with OpenSSH  
 Tested on Debian 11 Bullseye and Windows 10 VMs
 
 You need a Linux salt-master and salt-minion/s
