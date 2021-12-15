@@ -1,4 +1,4 @@
-'# Palvelinten-hallinta-h7-miniprojekti
+## Palvelinten-hallinta-h7-miniprojekti
 
 ## Purpose and how to use
 The purpose of this miniproject is to install OpenSSH, configure it and setup pubkeyauthentication from Salt-master to salt-minions with one state.apply  
