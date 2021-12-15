@@ -3,7 +3,7 @@
 These are my sls statefiles  
 
 Statefile for Linux(tested on debian 11)
-![screenshot](screenshots/sshd.png)
+![screenshot](screenshots/sshdinit.png)
 
 statefile for Windows(tested on Windows 10 Vm)
 ![screenshot](screenshots/winsshd.png)
