@@ -1,17 +1,17 @@
-## Tests and some commands
+# Tests and some commands
 
-# These are my sls statefiles  
+## These are my sls statefiles  
 
-# Statefile for Linux(tested on debian 11)
+## Statefile for Linux(tested on debian 11)
 ![screenshot](screenshots/sshdinit.png)
 
-# statefile for Windows(tested on Windows 10 Vm)
+## statefile for Windows(tested on Windows 10 Vm)
 ![screenshot](screenshots/winsshd.png)
 
-# top.sls file to run one of the states based on os
+## top.sls file to run one of the states based on os
 ![screenshot](screenshots/top.png)
 
-# state.apply results on debian and windows
+## state.apply results on debian and windows
 ![screenshot](screenshots/t001.png)
 ![screenshot](screenshots/Windows.png)
 
