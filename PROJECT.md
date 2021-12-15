@@ -27,3 +27,7 @@ Then we are ready to connect
 
 ssh IEUser@192.168.56.107  
 ![screenshot](screenshots/SSHWin.png)
+
+# Sources
+
+https://terokarvinen.com/2018/configure-windows-and-linux-with-salt-jinja-if-else-and-grains/
