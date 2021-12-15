@@ -11,8 +11,16 @@ sshd:
     - watch:
       - file: /etc/ssh/sshd_config
 
+adduser:
+  user.present:
+    - name: juhoadmin
+    - password: '*Valv0ja13*!'
+    - shell: /bin/bash
+    - home: /home/juhoadmin
+    - uid: 10000
+
 sshdkey:
   ssh_auth.present:
-    - user: root
+    - user: juhoadmin
     - source: salt://sshd/id_rsa.pub
-    - config: /root/.ssh/authorized_keys
+    - config: /home/juhoadmin/.ssh/authorized_keys

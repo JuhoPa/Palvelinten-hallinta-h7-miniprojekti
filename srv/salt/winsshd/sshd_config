@@ -3,7 +3,7 @@
 
 Port 2222
 Port 22
-PermitRootLogin yes
+PermitRootLogin no
 ChallengeResponseAuthentication no
 X11Forwarding yes
 PrintMotd no
